@@ -99,7 +99,7 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 30px;
-  color: #ffffff;
+  color: black;
   text-align: center;
   text-transform: uppercase;
 }
@@ -163,7 +163,7 @@ a:focus {
 .navbar-brand span {
   font-size: 24px;
   font-weight: 700;
-  color: #ffffff;
+  color: #000000;
   font-family: "Ethnocentric";
 }
 
@@ -191,7 +191,7 @@ a:focus {
 /*end header section*/
 .hero_section {
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -590,3 +590,35 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .text-box {
+            background-color: #eaf2f8; /* Color de fondo de la caja */
+            border: 1px solid #3498db; /* Borde de la caja */
+            border-radius: 8px; /* Bordes redondeados */
+            padding: 20px; /* Espaciado interno */
+            margin-bottom: 20px; /* Espaciado inferior */
+            text-align: justify; /* Justificar el texto */
+        }
